@@ -129,11 +129,13 @@ footer i{
         display: none;
     }
     nav .dropdown-menu{
+        padding: 0;
+        list-style: none;
         display: flex;
         gap: 15px;
         font-size: 20px;
     }
-    nav .dropdown-menu p:hover{
+    nav .dropdown-menu li:hover{
         transform: scale(1.05);
     }
     section{
